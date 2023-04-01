@@ -43,3 +43,7 @@ const addCardToBody = () => {
   let hero = new Card(name, stats, img);
   hero.createCard();
 };
+
+document.querySelector(".main-content__btn").addEventListener("click", () => {
+  addCardToBody();
+});
