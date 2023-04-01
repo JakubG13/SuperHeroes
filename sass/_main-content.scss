@@ -28,7 +28,7 @@
   }
 }
 .card__img {
-  background-image: url("https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/628-spyke.jpg");
+  //   background-image: url("https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/628-spyke.jpg");
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -44,6 +44,7 @@
 .description__name {
   font-size: 2rem;
   color: rgb(208, 255, 0);
+  text-align: center;
 }
 .description__info {
   display: flex;
