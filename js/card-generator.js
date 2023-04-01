@@ -25,7 +25,7 @@ class Card {
 
     for (let i = 0; i < 6; i++) {
       const p = document.createElement("p");
-      p.textContent = stats[i];
+      p.textContent = this.stats[i];
       descriptionInfo.appendChild(p);
     }
     cardDescription.appendChild(descriptionInfo);
@@ -37,3 +37,9 @@ class Card {
 
 //   const hero = new Card("spyke", stats);
 //   hero.createCard();
+
+const addCardToBody = () => {
+  generateCard();
+  let hero = new Card(name, stats, img);
+  hero.createCard();
+};
