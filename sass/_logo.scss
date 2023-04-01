@@ -1,0 +1,18 @@
+.logo {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.logo__icon {
+  color: rgb(255, 0, 0);
+}
+.logo__text {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
