@@ -10,6 +10,7 @@ class Card {
     card.classList.add("card");
     const cardImg = document.createElement("div");
     cardImg.classList.add("card__img");
+    cardImg.style.backgroundImage = `url(${this.img})`;
     card.appendChild(cardImg);
     const cardDescription = document.createElement("div");
     cardDescription.classList.add("card__description");
@@ -34,16 +35,5 @@ class Card {
   }
 }
 
-// const img =
-//   "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/628-spyke.jpg";
-
-// const stats = [
-//     "combat: 50",
-//     "durability: 80",
-//     "intelligence: 81",
-//     "power: 100",
-//     "speed: 25",
-//     "strength: 16",
-//   ];
 //   const hero = new Card("spyke", stats);
 //   hero.createCard();
